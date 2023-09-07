@@ -15,6 +15,10 @@ export default function NavBar({ user, setUser }) {
       &nbsp; | &nbsp;
       <Link to="/postform">Create Post</Link>
       &nbsp; | &nbsp;
+      <a>LOGO</a>
+      &nbsp; | &nbsp;
+      <Link to="/schematic">Schematics</Link>
+      &nbsp; | &nbsp;
       <span>Welcome, {user.name}</span>
       &nbsp; | &nbsp;<Link to="" onClick={handleLogOut}>Log Out</Link>
     </nav>
