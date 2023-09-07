@@ -3,8 +3,9 @@ import { Routes, Route } from 'react-router-dom';
 import { getUser } from '../../utilities/users-service';
 import './App.css';
 import AuthPage from '../AuthPage/AuthPage';
-import NewOrderPage from '../NewOrderPage/NewOrderPage';
-import OrderHistoryPage from '../OrderHistoryPage/OrderHistoryPage';
+import Guide from '../Guide/Guide';
+import FAQ from '../FAQ/FAQ';
+import PostForm from '../../components/PostForm/PostForm'
 import NavBar from '../../components/NavBar/NavBar';
 
 export default function App() {
@@ -17,8 +18,9 @@ export default function App() {
             <NavBar user={user} setUser={setUser} />
             <Routes>
               {/* Route components in here */}
-              <Route path="/orders/new" element={<NewOrderPage />} />
-              <Route path="/orders" element={<OrderHistoryPage />} />
+              <Route path="/faqs/guide" element={<Guide />} />
+              <Route path="/faqs" element={<FAQ />} />
+              <Route path="/postform" element={<PostForm />} />
             </Routes>
           </>
           :
