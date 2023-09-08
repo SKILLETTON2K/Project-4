@@ -2,6 +2,9 @@ const express = require('express');
 const path = require('path');
 const favicon = require('serve-favicon');
 const logger = require('morgan');
+const Schematic = require('./models/Schematic');
+
+
 // Always require and configure near the top
 require('dotenv').config();
 // Connect to the database
@@ -28,6 +31,16 @@ app.use('/api/users', require('./routes/api/users'));
 // to return the index.html on all non-AJAX/API requests
 app.get('/*', function(req, res) {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
+
+app.get('/api/schematic', async (req, res) => {
+  try {
+    const schematicPosts = await Schematic.find();
+    res.json(schematicPosts);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: 'Internal server error' });
+  }
 });
 
 app.listen(port, function() {

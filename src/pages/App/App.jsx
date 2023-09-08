@@ -6,7 +6,7 @@ import AuthPage from '../AuthPage/AuthPage';
 import Guide from '../Guide/Guide';
 import FAQ from '../FAQ/FAQ';
 import PostForm from '../../components/PostForm/PostForm';
-import NavBar from '../../components/NavBar/NavBar';
+import NavBar from '../../components/Navbar/Navbar';
 import Schematic from '../Schematic/Schematic';
 
 export default function App() {

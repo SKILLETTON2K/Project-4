@@ -14,18 +14,18 @@ import React, { useState } from 'react';
       <form id="new-form" action="/schematic" method="POST">
         <h2>Create a Schematic Post</h2>
 
-        <label>*Name of the build:</label>
+        <label>* Name of the build:</label>
     <input type="text" name="title"></input>
     <br></br>
     <br></br>
 
-    <label>*Description:</label>
+    <label>* Description:</label>
     <input type="text" name="description"></input>
     <br></br>
     <br></br>
 
     <label>Amount of blocks:</label>
-    <input type="text" name="blocks"></input>
+    <input type="number" name="blocks"></input>
     <br></br>
     <br></br>
 
@@ -36,7 +36,7 @@ import React, { useState } from 'react';
           onChange={handleFileChange}
         />
         {selectedFile && (
-          <div>
+           <div>
             <h3>Build Preview:</h3>
             <img
               src={URL.createObjectURL(selectedFile)}

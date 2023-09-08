@@ -2,7 +2,7 @@ export default function Schematic() {
   
     return (
       <>
-      <h1>Shematics</h1>
+      <h1>Schematics</h1>
       </>
     );
   }
