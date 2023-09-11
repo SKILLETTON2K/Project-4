@@ -45,7 +45,7 @@ function Footer() {
             <h2>Social Media</h2>
             <Link to='https://www.instagram.com/accounts/login/?next=%2Fp%2FCw2jsThLG6g%2F&source=desktop_nav'>Instagram</Link>
             <Link to='https://www.facebook.com/login/'>Facebook</Link>
-            <Link to='https://accounts.google.com/InteractiveLogin/signinchooser?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&ec=65620&hl=en&passive=true&service=youtube&uilel=3&ifkv=AYZoVhfqlnBtv9JRH6KLW8KkoGgQug50JVovnmKVD0wP8Gy3KUpRQ6bLDQeOEYbrcu8YBloS5ScH&theme=glif&flowName=GlifWebSignIn&flowEntry=ServiceLogin'>Youtube</Link>
+            <Link to='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>Youtube</Link>
             <Link to='https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D'>Twitter</Link>
           </div>
         </div>
@@ -83,7 +83,7 @@ function Footer() {
 
             <Link
               className='social-icon-link youtube'
-              to='https://accounts.google.com/InteractiveLogin/signinchooser?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&ec=65620&hl=en&passive=true&service=youtube&uilel=3&ifkv=AYZoVhfqlnBtv9JRH6KLW8KkoGgQug50JVovnmKVD0wP8Gy3KUpRQ6bLDQeOEYbrcu8YBloS5ScH&theme=glif&flowName=GlifWebSignIn&flowEntry=ServiceLogin'
+              to='https://www.youtube.com/watch?v=dQw4w9WgXcQ'
               target='_blank'
               aria-label='Youtube'
             >

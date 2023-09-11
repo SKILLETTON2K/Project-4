@@ -37,8 +37,8 @@ function Cards() {
             />
             <CardItem
               src='images/img-8.jpg'
-              text='Sign up today get access to our entire library!'
-              label='Sign-Up'
+              text='Wish to say farewell? Click here!'
+              label='Log Out'
               path='/sign-up'
             />
           </ul>

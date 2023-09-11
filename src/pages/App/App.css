@@ -30,9 +30,9 @@
 
 .faqs {
   color: #fff;
-  font-size: 85px;
-  margin-top: -50px;
-  margin-bottom: -50px;
+  font-size: 75px;
+  margin-top: -150px;
+  margin-bottom: -150px;
 }
 
 .faq-back {
@@ -57,4 +57,28 @@
   background-repeat: no-repeat;
   color: #000000;
   font-size: 100px;
+}
+
+.auth-container {
+    background-color: #242424;
+    padding: 0rem 0 2rem 0;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+}
+
+.sign-btn {
+  background-color: transparent;
+  color: #ffff;
+  transition: all 0.3s ease-out;
+  padding: 8px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-left: 90%;
+}
+
+.sign-btn:hover {
+  background: #ffff;
+  color: #242424;
+  transition: all 0.3s ease-out;
 }
