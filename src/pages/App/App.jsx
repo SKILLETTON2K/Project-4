@@ -7,7 +7,7 @@ import Faqs from '../Faqs/Faqs';
 import NavBar from '../../components/Navbar/Navbar';
 import Schematics from '../Schematics/Schematics';
 import Home from '../Home/Home';
-import SignUp from '../SignUp/SignUp';
+
 
 
 export default function App() {
@@ -23,7 +23,6 @@ export default function App() {
               <Route path='/' exact element = {<Home />} />
               <Route path='/schematics' exact element = {<Schematics />} />
               <Route path='/Faqs' exact element = {<Faqs />} />
-              <Route path='/sign-up' exact element = {<SignUp />} />
             </Routes>
           </>
           :

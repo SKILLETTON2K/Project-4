@@ -17,7 +17,7 @@ function Cards() {
             />
             <CardItem
               src='images/img-3.jpg'
-              text='Click here to download me on your world!'
+              text='Click here to download on your world!'
               label='Featured'
               path='/schematics'
             />
@@ -37,9 +37,9 @@ function Cards() {
             />
             <CardItem
               src='images/img-8.jpg'
-              text='Wish to say farewell? Click here!'
-              label='Log Out'
-              path='/sign-up'
+              text='Want your build here? Contact Us!'
+              label='Your next build'
+              path='/'
             />
           </ul>
         </div>
