@@ -11,13 +11,13 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='images/img-9.jpg'
-              text='Update Me'
+              text='What every world needs..'
               label='Featured'
               path='/schematics'
             />
             <CardItem
               src='images/img-3.jpg'
-              text='Update Me'
+              text='Click here to download me on your world!'
               label='Featured'
               path='/schematics'
             />
