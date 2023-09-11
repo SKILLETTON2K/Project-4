@@ -3,11 +3,10 @@ import { Routes, Route } from 'react-router-dom';
 import { getUser } from '../../utilities/users-service';
 import './App.css';
 import AuthPage from '../AuthPage/AuthPage';
-import Guide from '../Guide/Guide';
-import FAQ from '../FAQ/FAQ';
-import PostForm from '../../components/PostForm/PostForm';
+import Faqs from '../Faqs/Faqs';
+// import PostForm from '../../components/PostForm/PostForm';
 import NavBar from '../../components/Navbar/Navbar';
-import Schematic from '../Schematic/Schematic';
+import Schematics from '../Schematics/Schematics';
 
 export default function App() {
   const [user, setUser] = useState(getUser());
@@ -19,10 +18,11 @@ export default function App() {
             <NavBar user={user} setUser={setUser} />
             <Routes>
               {/* Route components in here */}
-              <Route path="/faqs/guide" element={<Guide />} />
-              <Route path="/faqs" element={<FAQ />} />
-              <Route path="/postform" element={<PostForm />} />
-              <Route path="/schematic" element={<Schematic />} />
+              {/* <Route path="/postform" element={<PostForm />} /> */}
+              <Route path='/' exact element = {<Home />} />
+              <Route path='/schematics' exact element = {<Schematics />} />
+              <Route path='/Faqs' exact element = {<Faqs />} />
+              <Route path='/sign-up' exact element = {<SignUp />} />
             </Routes>
           </>
           :
