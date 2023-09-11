@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { getUser } from '../../utilities/users-service';
 import './App.css';
-import AuthPage from '../AuthPage/AuthPage';
+// import AuthPage from '../AuthPage/AuthPage';
 import Faqs from '../Faqs/Faqs';
 // import PostForm from '../../components/PostForm/PostForm';
 import NavBar from '../../components/Navbar/Navbar';
@@ -16,7 +16,7 @@ export default function App() {
 
   return (
     <main className="App">
-      { user ?
+      {/* { user ? */}
           <>
             <NavBar user={user} setUser={setUser} />
             <Routes>
@@ -28,9 +28,9 @@ export default function App() {
               <Route path='/sign-up' exact element = {<SignUp />} />
             </Routes>
           </>
-          :
-          <AuthPage setUser={setUser} />
-      }
+          {/* // :
+          // <AuthPage setUser={setUser} /> */}
+      {/* } */}
     </main>
   );
 }
