@@ -2,8 +2,15 @@ import React, { useState, useEffect } from 'react';
 import { Button } from '../Button/Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import * as userService from '../../utilities/users-service';
 
-function Navbar() {
+function Navbar({ user, setUser }) {
+
+  function handleLogOut() {
+    userService.logOut();
+    setUser(null);
+  }
+  
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
@@ -71,6 +78,7 @@ function Navbar() {
               >
                 Sign Up
               </Link>
+              <Link to="" onClick={handleLogOut}>Log Out</Link>
             </li>
           </ul>
           {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
