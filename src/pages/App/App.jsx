@@ -7,6 +7,9 @@ import Faqs from '../Faqs/Faqs';
 // import PostForm from '../../components/PostForm/PostForm';
 import NavBar from '../../components/Navbar/Navbar';
 import Schematics from '../Schematics/Schematics';
+import Home from '../Home/Home';
+import SignUp from '../SignUp/SignUp';
+
 
 export default function App() {
   const [user, setUser] = useState(getUser());
