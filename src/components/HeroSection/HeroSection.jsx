@@ -16,7 +16,7 @@ function HeroSection() {
              className='btns'
              buttonStyle='btn--primary'
              buttonSize='btn--large'>
-                SIGN UP!
+                GET BUILDING!
             </Button>
         </div>
 

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Button } from '../Button/Button';
+// import { Button } from '../Button/Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import * as userService from '../../utilities/users-service';
@@ -10,26 +10,26 @@ function Navbar({ user, setUser }) {
     userService.logOut();
     setUser(null);
   }
-  
+
   const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
+  const [link, setLink] = useState(true);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-  const showButton = () => {
+  const showLink = () => {
     if (window.innerWidth <= 960) {
-      setButton(false);
+      setLink(false);
     } else {
-      setButton(true);
+      setLink(true);
     }
   };
 
   useEffect(() => {
-    showButton();
+    showLink();
   }, []);
 
-  window.addEventListener('resize', showButton);
+  window.addEventListener('resize', showLink);
 
   return (
     <>
@@ -54,8 +54,7 @@ function Navbar({ user, setUser }) {
               <Link
                 to='/schematics'
                 className='nav-links'
-                onClick={closeMobileMenu}
-              >
+                onClick={closeMobileMenu}>
                 Schematics
               </Link>
             </li>
@@ -64,24 +63,21 @@ function Navbar({ user, setUser }) {
               <Link
                 to='/faqs'
                 className='nav-links'
-                onClick={closeMobileMenu}
-              >
+                onClick={closeMobileMenu}>
                 FAQ's
               </Link>
             </li>
 
-            <li>
-              <Link
-                to='/sign-up'
-                className='nav-links-mobile'
-                onClick={closeMobileMenu}
-              >
-                Sign Up
+            <li className='nav-item'>
+              <Link to="" className="nav-links-mobile" onClick={handleLogOut}>Log Out
               </Link>
-              <Link to="" onClick={handleLogOut}>Log Out</Link>
             </li>
+
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+
+          {link && <Link to="" className="logout-btn" onClick={handleLogOut}>Log Out
+              </Link>}
+              
         </div>
       </nav>
     </>
