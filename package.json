@@ -2,6 +2,9 @@
   "name": "mern-infrastructure",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "20.4.0"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -19,8 +22,6 @@
     "serve-favicon": "^2.5.0"
   },
   "scripts": {
-    "postinstall": "npm run webpack",
-    "webpack": "webpack",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
