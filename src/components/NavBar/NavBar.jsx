@@ -1,13 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 // import { Button } from '../Button/Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import * as userService from '../../utilities/users-service';
+import * as UserService from '../../utilities/users-service';
 
 function Navbar({ user, setUser }) {
 
   function handleLogOut() {
-    userService.logOut();
+    UserService.logOut();
     setUser(null);
   }
 
