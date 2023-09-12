@@ -36,7 +36,7 @@ function Navbar({ user, setUser }) {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            SCHEM STATIC.
+            SCHEM STATIC &nbsp;
             <i class="fa-solid fa-cloud-bolt fa-flip-horizontal"></i>
           </Link>
           <div className='menu-icon' onClick={handleClick}>

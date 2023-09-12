@@ -18,7 +18,7 @@ function Footer() {
               className='footer-input'
               name='email'
               type='email'
-              placeholder='Your Email'
+              placeholder='Icebox Feature'
             />
             <Button buttonStyle='btn--outline'>Sign Up</Button>
           </form>
@@ -34,8 +34,8 @@ function Footer() {
             <Link to='/faqs'>Support</Link>
             <Link to='/schematics'>Schematics</Link>
             <Link to='https://dev.bukkit.org/projects/worldedit/files'>
-                World Edit.
-                <i className="fa-solid fa-cloud-arrow-down fa-fade"></i>
+                World Edit &nbsp;
+                <i class="fa-solid fa-file-arrow-down fa-fade"></i>
             </Link>
           </div>
         </div>
@@ -56,11 +56,11 @@ function Footer() {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-              SCHEM STATIC.
+              SCHEM STATIC &nbsp;
               <i className="fa-solid fa-cloud-bolt fa-flip-horizontal"></i>
             </Link>
           </div>
-          <small className='website-rights'>SCHEM STATIC. © 2023</small>
+          <small className='website-rights'>SCHEM STATIC &nbsp; © 2023</small>
           <div className='social-icons'>
 
             <Link
