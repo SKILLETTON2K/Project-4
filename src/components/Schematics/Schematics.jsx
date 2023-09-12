@@ -1,6 +1,6 @@
 import React from "react";
 import '../../pages/App/App.css';
-import Footer from "../../components/Footer/Footer";
+import Footer from "../Footer/Footer";
 import Schemcards from "./Schemcards";
 import './Schemcards.css';
 

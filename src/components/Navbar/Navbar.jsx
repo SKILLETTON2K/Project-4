@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-// import { Button } from '../Button/Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import * as UserService from '../../utilities/users-service';
@@ -56,6 +55,15 @@ function Navbar({ user, setUser }) {
                 className='nav-links'
                 onClick={closeMobileMenu}>
                 Schematics
+              </Link>
+            </li>
+
+            <li className='nav-item'>
+              <Link
+                to='/postschematic'
+                className='nav-links'
+                onClick={closeMobileMenu}>
+                Post Schem
               </Link>
             </li>
 
