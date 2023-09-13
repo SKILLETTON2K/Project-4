@@ -8,7 +8,6 @@
 
 
 <h2>In this project we used:</h2>
-<br></br>
 <li>Node.js</li>
 <li>React.js</li>
 <li>Express</li>
@@ -17,6 +16,7 @@
 <li>FontAwesome</li>
 <li>CSS</li>
 <li>HTML</li>
+<br></br>
 
 
 
@@ -28,6 +28,7 @@ https://schematic-static-3311e5bb67ef.herokuapp.com/
 <li>
 https://trello.com/b/fUis7hys/project-4
 </li>
+<br></br>
 
 
 
