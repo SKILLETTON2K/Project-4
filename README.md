@@ -8,36 +8,36 @@
 
 
 <h2>In this project we used:</h2>
-<li>
-Node.js
-React.js
-Express
-MongoDB
-Mongoose
-FontAwesome
-CSS
-HTML
-</li>
+<br></br>
+<li>Node.js</li>
+<li>React.js</li>
+<li>Express</li>
+<li>MongoDB</li>
+<li>Mongoose</li>
+<li>FontAwesome</li>
+<li>CSS</li>
+<li>HTML</li>
 
 
 
 <h2>Heroku & Trello Board Links:</h2>
 <li>
 https://schematic-static-3311e5bb67ef.herokuapp.com/
-== == ==
+</li>
+<br></br>
+<li>
 https://trello.com/b/fUis7hys/project-4
 </li>
 
 
 
 <h2>Future Plans for Schematic Static:</h2>
-<li>
-Add in a filter/search sytem for the shematic library once it's starts to fill up
-Add in a 'like' system to allow users to rate others posts
-Add in an email newsletter for any updates to the site
-Swap over to Google sign in system
-Add in drop down answers to the FAQ page.
-</li>
+
+<li>Add in a filter/search sytem for the shematic library once it's starts to fill up</li>
+<li>Add in a 'like' system to allow users to rate others posts</li>
+<li>Add in an email newsletter for any updates to the site</li>
+<li>Swap over to Google sign in system</li>
+<li>Add in drop down answers to the FAQ page.</li>
 
 
 
