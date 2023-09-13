@@ -7,8 +7,6 @@
 
 
 
-== == == == == == == == == == == == == == ==
-
 <h2>In this project we used:</h2>
 <li>
 Node.js
@@ -21,7 +19,7 @@ CSS
 HTML
 </li>
 
-== == == == == == == == == == == == == == ==
+
 
 <h2>Heroku & Trello Board Links:</h2>
 <li>
@@ -30,7 +28,7 @@ https://schematic-static-3311e5bb67ef.herokuapp.com/
 https://trello.com/b/fUis7hys/project-4
 </li>
 
-== == == == == == == == == == == == == == ==
+
 
 <h2>Future Plans for Schematic Static:</h2>
 <li>
@@ -41,5 +39,5 @@ Swap over to Google sign in system
 Add in drop down answers to the FAQ page.
 </li>
 
-== == == == == == == == == == == == == == ==
+
 
