@@ -1,4 +1,7 @@
-<h1>Schematic Static</h1>
+<h1>
+     Schematic Static &nbsp;
+    <i class="fa-solid fa-cloud-bolt fa-flip-horizontal"></i>
+</h1>
 
 
 <h2>Sample Photo's:</h2>
