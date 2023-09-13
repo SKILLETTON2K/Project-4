@@ -24,7 +24,6 @@
 <li>
 https://schematic-static-3311e5bb67ef.herokuapp.com/
 </li>
-<br></br>
 <li>
 https://trello.com/b/fUis7hys/project-4
 </li>
