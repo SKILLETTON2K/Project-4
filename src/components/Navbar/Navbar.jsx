@@ -76,7 +76,7 @@ function Navbar({ user, setUser }) {
               </Link>
             </li>
 
-            <li className='nav-item'>
+            <li>
               <Link to="" className="nav-links-mobile" onClick={handleLogOut}>Log Out
               </Link>
             </li>
