@@ -46,11 +46,14 @@
 }
 
 .faq-q {
-  color: #fff;
-  font-size: 20px;
-  align-items: center;
+  border: 3px solid #242424;
+  border-radius: 5px;
+  padding: 8px 8px 8px 8px;
+  background-color: rgba(255, 255, 255, 0.515);
   justify-content: center;
   display: flex;
+  width: 50%;
+  margin-left: 25%;
 }
 
 .sign-up {
