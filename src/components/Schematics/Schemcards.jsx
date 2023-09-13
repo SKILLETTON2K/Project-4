@@ -1,6 +1,5 @@
 import React from 'react';
 import './Schemcards.css';
-import CardItem from '../CardItem/CardItem'
 import Schem from '../../schems/GA.schem'
 import Schem1 from '../../schems/first-home.schem'
 import Schem2 from '../../schems/amethyst-home.schem'
@@ -26,6 +25,7 @@ function Schemcards() {
               text='G.A. Logo &nbsp; || &nbsp; Blocks: 1,674 &nbsp; || &nbsp; By: Ashton &nbsp;'
               label='Featured Download'
               schematic={Schem}
+              fileName='GA.schem'
             />
 
             <CardItemTest
@@ -33,6 +33,7 @@ function Schemcards() {
               text='3 Story House &nbsp; || &nbsp; Blocks: 25,172 &nbsp; || &nbsp; By: Ashton'
               label='Featured Download'
               schematic={Schem1}
+              fileName='first-home.schem'
             />
           </ul>
 
@@ -43,6 +44,7 @@ function Schemcards() {
               text='Amethyst Home &nbsp; || &nbsp;Blocks: 5,120 &nbsp; || &nbsp; By: Marina'
               label='Download'
               schematic={Schem2}
+              fileName='amethyst-home.schem'
             />
 
             <CardItemTest
@@ -50,6 +52,7 @@ function Schemcards() {
               text='Sugarcane Farm &nbsp; || &nbsp;Blocks: 1,540 &nbsp; || &nbsp; By: Marina'
               label='Download'
               schematic={Schem3}
+              fileName='sugar-farm.schem'
             />
 
             <CardItemTest
@@ -57,6 +60,7 @@ function Schemcards() {
               text='Mushroom Home &nbsp;||&nbsp;Blocks:14,300&nbsp; || &nbsp; By: Anna'
               label='Download'
               schematic={Schem4}
+              fileName='mushroom-home.schem'
             />
 
             <CardItemTest
@@ -64,6 +68,7 @@ function Schemcards() {
               text='Windmill Build  &nbsp;  ||  &nbsp;Blocks: 11,067 &nbsp;|| &nbsp;   By: Anna'
               label='Download'
               schematic={Schem5}
+              fileName='windmill.schem'
             />
             
             <CardItemTest
@@ -71,6 +76,7 @@ function Schemcards() {
               text='Honey Home&nbsp;|| &nbsp; Blocks: 8,736 &nbsp; || &nbsp; By: Anna &nbsp;'
               label='Download'
               schematic={Schem6}
+              fileName='honey-home.schem'
             />
 
           </ul>
