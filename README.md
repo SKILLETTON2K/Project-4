@@ -1,6 +1,5 @@
 <h1>
      Schematic Static &nbsp;
-    <i class="fa-solid fa-cloud-bolt fa-flip-horizontal"></i>
 </h1>
 
 
